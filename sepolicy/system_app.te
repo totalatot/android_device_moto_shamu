@@ -4,4 +4,8 @@ allow system_app cne_service:service_manager add;
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file r_file_perms;
 
+allow system_app selinuxfs:file r_file_perms;
+
+allow system_app sensors_device:chr_file { getattr open read write ioctl };
+
 unix_socket_connect(system_app, cnd, cnd)
