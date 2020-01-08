@@ -34,7 +34,7 @@ $(call inherit-product, vendor/motorola/shamu/shamu-vendor.mk)
 PRODUCT_NAME := lineage_shamu
 PRODUCT_DEVICE := shamu
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 6
+PRODUCT_MODEL := Moto X Pro
 PRODUCT_MANUFACTURER := motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
